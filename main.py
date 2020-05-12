@@ -29,8 +29,8 @@ time.sleep(3)
 
 """DM Page"""
 # Finds the first box and clicks it, waits 1 second
-samBox = driver.find_element_by_xpath('//*[@id="react-root"]/section/div/div[2]/div/div/div[1]/div[2]/div/div/div/div/div[1]/a')
-samBox.click()
+dmBox = driver.find_element_by_xpath('//*[@id="react-root"]/section/div/div[2]/div/div/div[1]/div[2]/div/div/div/div/div[1]/a')
+dmBox.click()
 time.sleep(1)
 
 # Finds and Clicks on the text area and enters the phrase you want, waits 2 seconds and the clicks send
